@@ -363,8 +363,7 @@
      transition: background-color 0.15s;
  }
  .banner.arrow span {
-     background: url('img/banner_transparent_left.png') no-repeat left top / contain, 
-                 url('img/banner_arrow_transparent_right.png') no-repeat right top / contain;
+     background: url('img/banner_transparent_left.png') no-repeat left top / contain;
  }
      .active .banner span {
          transition: none;
@@ -745,7 +744,6 @@
  
  .section.support ul.supportlinks {
      height: 68px;
-     background-image: url('img/firewatch_shield_small.png');
      background-size: auto 100%;
      background-repeat: no-repeat;
      background-position: center top;
@@ -814,13 +812,6 @@
      .section.companylinks .companies li>a:hover h1 {
          background-color: #ffaf00;
      }
- .section.companylinks .companies li.campo h1 {
-     background-image: url('img/logo_camposanto_transparent.png');
- }
- .section.companylinks .companies li.panic h1 {
-     background-image: url('img/logo_panic_transparent.png');
-     width: 62px;
- }
  
  
  
